@@ -29,6 +29,4 @@ def printer(attendees)
     puts name
   end
     
-    binding.pry
-  
 end
