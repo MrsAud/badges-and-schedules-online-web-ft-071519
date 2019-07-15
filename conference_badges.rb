@@ -15,7 +15,7 @@ end
 def assign_rooms(attendees)
   assignments = {}
   attendees.each_with_index do |name, index|
-    assignments[name] = index
+    assignments[name] = index + 1
   end
   binding.pry
 end
