@@ -23,3 +23,7 @@ def assign_rooms(attendees)
   end
   welcome_message
 end
+
+def printer(attendees)
+  
+end
